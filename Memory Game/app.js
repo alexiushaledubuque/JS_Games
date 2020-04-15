@@ -98,7 +98,6 @@ document.addEventListener('DOMContentLoaded', () => {
     //flip your card
     var flipcard = function() {
         var cardId = this.getAttribute('data-id')
-        // alert('this is the cardId ' + cardId )
         if (cardId === cardsChosenId[0]) {
             alert('Choose a different card')
         } else {
